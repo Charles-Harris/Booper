@@ -4,7 +4,7 @@ This web app is a dog "booper" app. The app displays a randomized dog image from
 
 ## Getting Started
 
-These instructions will walk you through the steps to run this app on your local machine. For details on deploying the web app on a public IP address via Oracle Cloud Infrastructure, see the [OCI Deployment](https://github.com/paulchyz/Booper) directory in this Booper repository.
+These instructions will walk you through the steps to run this app on your local machine. For details on deploying the web app on a public IP address via Oracle Cloud Infrastructure, see the [OCIdeployment](https://github.com/paulchyz/Booper) directory in this Booper repository.
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ python doggo.py
 
 ## Running on Public IP
 
-To run the web app on a public IP, there is documentation in the [OCI Deployment](https://github.com/paulchyz/Booper) directory of this repository. That documentation provides a walkthrough for hosting the web app on a compute instance on Oracle Cloud Infrastructure, where it can be accessed on a highly available public IP address.
+To run the web app on a public IP, there is documentation in the [OCIdeployment](https://github.com/paulchyz/Booper) directory of this repository. That documentation provides a walkthrough for hosting the web app on a compute instance on Oracle Cloud Infrastructure, where it can be accessed on a highly available public IP address.
 
 ## Authors
 
