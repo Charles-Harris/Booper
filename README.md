@@ -9,4 +9,4 @@ The web app is a dog "booper" app. The app displays a randomized dog image from 
 
 ## OCI Deployment
 
-There is documentation in the "OCIdeployment" directory of this repository, providing a walkthrough for hosting the web app on a public IP address via Oracle Cloud Infrastructure. This includes provisioning Oracle Cloud resources with Terraform, along with containerized deployment with Docker.
+There is documentation in the "tfslurp" and "dockerDogAppFiles" directories of this repository, providing a walkthrough for hosting the web app on a public IP address via Oracle Cloud Infrastructure. This includes provisioning Oracle Cloud resources with Terraform, along with containerized deployment with Docker.
