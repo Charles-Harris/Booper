@@ -1,0 +1,13 @@
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaa6m7ysr7pgy5crmikohnh4t6i6ymbwummhj7rhdhvbk4amxlmxcya
+export TF_VAR_user_ocid=ocid1.user.oc1..aaaaaaaaixphz3bjgu5iva7jestp72lqbi4iqlf2yos7gwqjqvpiscpbdhmq
+export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaae42euv5wijdag5u3e7ivkaskkmazlohfwnkxdwxu7jxiixtfylhq
+#export TF_VAR_fingerprint=$(openssl rsa -in ~/.oci/oci_api_key.pem -pubout -outform DER 2>/dev/null | openssl md5 -c | awk '{print $2}')
+#"openssl rsa -in ~/.oci/oci_api_key.pem -pubout -outform DER 2>/dev/null | openssl md5 -c | awk '{print $2}' > ~/.oci/oci_api_key_fingerprint"
+export TF_VAR_fingerprint=$(cat ~/.oci/oci_api_key_fingerprint)
+
+export TF_VAR_private_key_path=~/.oci/oci_api_key.pem
+
+export TF_VAR_ssh_public_key=$(cat ~/.ssh/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat ~/.ssh/id_rsa)
+
+export TF_VAR_region=us-ashburn-1
