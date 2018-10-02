@@ -41,7 +41,7 @@ resource "oci_objectstorage_bucket" "bucket" {
 }
 resource "null_resource" "upload_img" {
   provisioner "local-exec" {
-    command = "echo y | oci os object put -ns gse00015178 -bn DogBucket --name StBernard --file StBernard | sleep 5"
+    command = "echo y | oci os object put -ns <TENANCY> -bn DogBucket --name StBernard --file StBernard | sleep 5"
   }
 }
 
